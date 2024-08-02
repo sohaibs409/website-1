@@ -1,0 +1,23 @@
+/* Write your code here: */
+h1, h2{
+    color: blueviolet;
+}
+
+
+
+.box > p{
+    color: firebrick;
+}
+
+/* Descendent */
+.box li {
+    color: blue;
+  }
+  
+  /* Chained */
+  li.done {
+    color: green;
+  }
+  ul p.done{
+    font-size: 2rem;
+  }
